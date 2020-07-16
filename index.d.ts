@@ -4,7 +4,7 @@
 // TypeScript Version: 3.0.0
 
 declare module 'react-awesome-button' {
-  import React, { Component } from 'react';
+  import * as React from 'react';
 
   export interface AwesomeButtonProps {
     action?(): void;
